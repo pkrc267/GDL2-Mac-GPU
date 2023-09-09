@@ -1,0 +1,16 @@
+matplotlib
+scipy
+scikit-learn
+scikit-image
+pandas
+music21
+click
+flake8
+kaggle
+pydot
+ipywidgets
+tensorflow
+tensorflow-metal
+tensorboard
+tensorflow_probability
+flake8-nb
