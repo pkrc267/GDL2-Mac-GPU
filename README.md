@@ -3,7 +3,7 @@
 #### Adam Optimizer
 tensorflow-metal package seems to have some problem with adam optimizer's implementation (something is missing).
 Which might result in the below error:
-| INVALID_ARGUMENT: Graph does not contain terminal node Adam/AssignAddVariableOp
+> INVALID_ARGUMENT: Graph does not contain terminal node Adam/AssignAddVariableOp
 
 Instead of using default Adam, use the Adam optimizer from legacy sub-package
 `tf.keras.optimizers.legacy.Adam()`
